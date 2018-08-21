@@ -86,7 +86,7 @@ Installs a given Ruby version to the system or user location.
 ```ruby
 rbenv_ruby '2.3.4' do
   user # Optional: If passed the user rbenv to install to
-  rbenv_action # Optional: the action to perform, install, remove etc
+  rbenv_action # Optional: the action to perform, 'install' (default), 'uninstall' etc
 end
 ```
 
